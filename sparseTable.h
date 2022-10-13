@@ -2,16 +2,16 @@
 
 using namespace std;
 
-template <typename T>
+template <typename valStr>
 struct sparseTable
 {
-    vector<T> v;
-    vector<vector<T>> bnC;
-    function<T(T, T)> func;
+    vector<valStr> v;
+    vector<vector<valStr>> bnC;
+    function<valStr(valStr, valStr)> func;
 
     void build()
     {
-        bnC.resize(32, vector<T>(v.size()));
+        bnC.resize(32, vector<valStr>(v.size()));
         bnC[0] = v;
         for (int i = 1; i < 32; i++)
         {
@@ -22,7 +22,7 @@ struct sparseTable
         }
     }
 
-    T calcOnSgm(ll l, ll r)
+    valStr calcOnSgm(ll l, ll r)
     {
         ll mxP = 0;
         for (; mxP < 32 && (r - l + 1) <= (1 << mxP); mxP++)
@@ -31,7 +31,7 @@ struct sparseTable
         return func(bnC[mxP][l], bnC[mxP][r - (1 << mxP) + 1]);
     }
 
-    sparseTable(vector<T> v, function<T(T, T)> mult) : v(v), func(mult)
+    sparseTable(vector<valStr> v, function<valStr(valStr, valStr)> mult) : v(v), func(mult)
     {
         build();
     }
