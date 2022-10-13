@@ -17,8 +17,6 @@
 #define all(v) v.begin(), v.end()
 #define rall(v) v.rbegin(), v.rend()
 
-using namespace std;
-
 typedef long long ll;
 typedef unsigned long long ull;
 typedef long double db;
