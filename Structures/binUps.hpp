@@ -1,4 +1,6 @@
-#include "defLibsDefs.h"
+#include "../defLibsDefs.hpp"
+
+using namespace std;
 
 template <typename E>
 struct BinUps
