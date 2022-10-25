@@ -24,7 +24,7 @@ const long long INF = 1e18;
 const long long MD = 7 + 1e9;
 const double PI = atan2(0, -1);
 
-void FILE_IO(char* inFile, char* outFile){
+void FILE_IO(char* inFile = "", char* outFile = ""){
     if (inFile != "")
         freopen(inFile, "R", stdin);
     if (outFile != "")
