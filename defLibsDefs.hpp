@@ -21,8 +21,7 @@ typedef long long ll;
 typedef unsigned long long ull;
 
 const long long INF = 1e18;
-const long long MD = 7 + 1e9;
-const double PI = atan2(0, -1);
+const long long MD7 = 7 + 1e9;
 
 void FILE_IO(char* inFile = "", char* outFile = ""){
     if (inFile != "")
