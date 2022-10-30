@@ -1,7 +1,5 @@
 #include "../defLibsDefs.hpp"
 
-using namespace std;
-
 struct Val2Ind
 {
     vector<ll> ind;

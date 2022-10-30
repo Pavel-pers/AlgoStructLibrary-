@@ -1,7 +1,5 @@
 #include "../defLibsDefs.hpp"
 
-using namespace std;
-
 template <typename valStr>
 struct sparseTable
 {

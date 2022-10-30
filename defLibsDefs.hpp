@@ -29,3 +29,5 @@ void FILE_IO(char* inFile = "", char* outFile = ""){
     if (outFile != "")
         freopen(outFile, "W", stdout);
 }
+
+using namespace std;
