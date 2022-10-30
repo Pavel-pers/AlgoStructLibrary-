@@ -32,4 +32,4 @@ struct Val2Ind
     }
 };
 
-#define val2ordDef
+#define val2ordI

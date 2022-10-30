@@ -31,4 +31,4 @@ struct Fenvik
 
 
 
-#define FenvikDecl
+#define FenvikI

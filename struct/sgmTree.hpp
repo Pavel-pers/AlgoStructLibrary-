@@ -102,4 +102,4 @@ struct SgmTree
     }
 };
 
-#define sgmTreeDef
+#define sgmTreeI

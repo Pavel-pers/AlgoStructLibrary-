@@ -53,4 +53,4 @@ struct BinUps
     }
 };
 
-#define binUpsDef
+#define binUpsI

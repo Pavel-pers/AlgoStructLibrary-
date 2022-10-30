@@ -37,4 +37,4 @@ struct sparseTable
     }
 };
 
-#define sparseTableDef
+#define sparseTableI
