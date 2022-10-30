@@ -1,4 +1,6 @@
+#ifndef defNlibs
 #include "../defLibsDefs.hpp"
+#endif
 
 template <typename valStr>
 struct sparseTable
@@ -34,3 +36,5 @@ struct sparseTable
         build();
     }
 };
+
+#define sparseTableDef

@@ -1,5 +1,6 @@
+#ifndef defNlibs
 #include "../defLibsDefs.hpp"
-
+#endif
 template <typename E>
 struct BinUps
 {
@@ -51,3 +52,5 @@ struct BinUps
         build();
     }
 };
+
+#define binUpsDef
