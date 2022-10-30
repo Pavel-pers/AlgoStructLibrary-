@@ -1,4 +1,6 @@
+#ifndef defNlibs
 #include "../defLibsDefs.hpp"
+#endif
 
 struct Val2Ind
 {
@@ -29,3 +31,5 @@ struct Val2Ind
         build();
     }
 };
+
+#define val2ordDef
